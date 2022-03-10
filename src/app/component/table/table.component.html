@@ -1,0 +1,27 @@
+<div class="layout">
+  <div class="title-container" *ngIf="books.length > 0">
+    <h1>{{ title }}</h1>
+  </div>
+  <div class="container">
+    <div class="table-container" *ngIf="books.length > 0">
+      <hr />
+      <table>
+        <thead class="table-header">
+          <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+
+        <tr class="table-row" *ngFor="let book of books">
+          <td>{{ book.name }}</td>
+          <td>{{ book.shortDescription }}</td>
+          <td>{{ book.category }}</td>
+          <td>{{ book.price }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

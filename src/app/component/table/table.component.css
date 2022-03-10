@@ -1,0 +1,33 @@
+.layout {
+  box-sizing: border-box;
+  padding: 1rem;
+  background-color: #574f7d;
+  color: #fff;
+  border-radius: 1rem;
+  margin: 2rem auto;
+}
+
+.title-container {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.table-container {
+  font-size: 1.4rem;
+  margin: 0 1rem;
+  text-align: left;
+}
+
+hr {
+  background-color: #fff;
+  width: 100%;
+  height: 2px;
+}
+
+.table-row td {
+  padding: 1rem 4rem 1rem 0;
+}
+
+.table-row td:last-child {
+  padding-right: 0rem;
+}
